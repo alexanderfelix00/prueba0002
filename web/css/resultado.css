@@ -1,0 +1,67 @@
+.c-respuesta{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    padding: 15px 0;
+    width: 800px;
+    height: 420px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: lightblue;
+}
+.o-verificar{
+    width: 45%;
+    height: 100%;
+    background: lightgreen;
+    border: 1px solid #1340bb;
+}
+.o-final{
+    display: block;
+    width: 45%;
+    height: 100%;
+    background: lightsalmon;
+    border: 1px solid #1340bb;
+}
+.c-datos{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.titulo-verificar p{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 2px solid blue;
+}
+.c-datos{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.o-divisor_datos{
+    margin-right: auto;
+}
+.o-dato{
+    display: block;
+}
+.botones-verificar{
+    display: flex;
+    margin-top: 20px;
+}
+.btnFinalizar{
+    margin: auto;
+    width: 150px;
+}
+.btnCorregir{
+    margin: auto;
+    width: 150px;
+}
+.mensaje-final{
+    padding: 0 15px;
+}
+.mensaje-final p{
+    text-align: justify;
+}

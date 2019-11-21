@@ -1,0 +1,31 @@
+.c-tabla{
+    width: 95%;
+    margin: 30px auto;
+}
+table{
+    width: 100%;
+}
+thead{
+    background: lightskyblue;
+    padding: 30px 5px;
+    text-align: center;
+    border-bottom: 4px solid #dadada;
+}
+td{
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+}
+.c-totalReg{
+    width: 350px;
+    background: lightgreen;
+    margin: 25px 0 0 2.5%;
+    display: flex;
+}
+h3{
+    padding: 10px;
+}
+h4{
+    padding: 12px;
+}

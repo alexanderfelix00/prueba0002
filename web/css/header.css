@@ -1,0 +1,10 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.navegacion{
+    background: rgb(2, 116, 238);
+}
+.titulo{
+    font-weight: bold;
+}
